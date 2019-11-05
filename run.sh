@@ -139,4 +139,5 @@ echo "Starting Pure-FTPd:"
 echo "  pure-ftpd $PURE_FTPD_FLAGS"
 
 # start pureftpd with requested flags
+/usr/sbin/pure-uploadscript -r /scripts/mv.sh&
 exec /usr/sbin/pure-ftpd $PURE_FTPD_FLAGS
